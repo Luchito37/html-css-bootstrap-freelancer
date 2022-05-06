@@ -31,7 +31,7 @@ a{
 }
 
 
-/* ------ css per il main ------ */
+/* ------ css per il main ( prima section ) ------ */
 
 
 
@@ -65,3 +65,30 @@ a{
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
 }
+
+
+
+/* ------ css per il main ( seconda section ) ------ */
+
+
+
+
+
+.portfolio-bar{
+    background-color: black;
+}
+
+.portfolio-space{
+    padding: 10px 0;
+}
+
+.portfolio-img-display{
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-img{
+    max-width: 300px;
+    border-radius: 10px;
+}
+
