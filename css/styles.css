@@ -37,7 +37,7 @@ a{
 
 
 .section{
-    background-color: rgb(10, 232, 195);
+    background-color: rgb(9, 188, 159);
     color: white;
 }
 
@@ -92,3 +92,16 @@ a{
     border-radius: 10px;
 }
 
+
+
+
+/* ------ css per il main ( terza section ) ------ */
+
+
+
+
+.button-about{
+    padding: 5px 15px;
+    border: solid 2px;
+    border-radius: 5px;
+}
