@@ -105,3 +105,54 @@ a{
     border: solid 2px;
     border-radius: 5px;
 }
+
+
+
+/* ------ css per il main ( quarta section ) ------ */
+
+
+
+
+.space-contact-text{
+    padding-bottom: 100px;
+}
+
+.button-contact{
+    background-color: #06bc9f;
+}
+
+
+
+/* ------ css per il main ( quinta section ) ------ */
+
+
+
+.section-5{
+    background-color: #123748;
+    color: white;
+}
+
+.pre-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-pre-footer{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+/* ------ css per il main ( FOOTER section ) ------ */
+
+
+
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+}
