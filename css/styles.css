@@ -72,8 +72,6 @@ a{
 
 
 
-
-
 .portfolio-bar{
     background-color: black;
 }
@@ -90,6 +88,10 @@ a{
 .portfolio-img{
     max-width: 300px;
     border-radius: 10px;
+}
+
+.portfolio-img:hover{
+    z-index: 999;
 }
 
 
