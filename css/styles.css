@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bg-color-head{
+    background-color: rgb(23, 42, 51);
+    color: white;
+}
+
+.pd-contain{
+    padding: 20px;
+}
+
+.col-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col-contact{
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+}
+
+
+/* ------ css per il main ------ */
+
+
+
+
+.section{
+    background-color: rgb(10, 232, 195);
+    color: white;
+}
+
+.size-img{
+    max-width: 200px;
+}
+
+.line-content-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line-content-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 0;
+}
+
+.lateral-bar{
+    width: 125px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
