@@ -169,6 +169,16 @@ a{
 
 
 
+
+
+
+
+@media screen and (max-width: 780px){
+    .md-col{
+        width: 50%;
+    }
+}
+
 @media screen and (max-width: 575px) { 
     .xs-layout{
         display: flex;
@@ -205,8 +215,3 @@ a{
 
 }
 
-@media screen and (max-width: 780px){
-    .md-col{
-        width: 50%;
-    }
-}
