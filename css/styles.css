@@ -80,13 +80,17 @@ a{
     padding: 10px 0;
 }
 
+.img-space{
+    margin-bottom: 20px;
+}
+
 .portfolio-img-display{
     display: flex;
     justify-content: center;
 }
 
 .portfolio-img{
-    max-width: 300px;
+    max-width: 100%;
     border-radius: 10px;
 }
 
@@ -157,4 +161,52 @@ a{
     display: flex;
     justify-content: center;
     font-size: 8px;
+}
+
+
+
+/*-----------MEDIA QUERY----------*/
+
+
+
+@media screen and (max-width: 575px) { 
+    .xs-layout{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-img-display{
+        width: 100%;
+    }
+
+    .portfolio-img{
+        max-width: 100%;
+    }
+
+    .text-restricted{
+        padding: 0px 100px;
+        text-align: center;
+    }
+
+    .contact-restricted{
+        padding: 0 40px;
+    }
+
+    .section-us-informazioni{
+        flex-direction: column;
+        align-items: center;
+        gap: 35px;
+    }
+
+    .dimensioni-informazioni{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 780px){
+    .md-col{
+        width: 50%;
+    }
 }
