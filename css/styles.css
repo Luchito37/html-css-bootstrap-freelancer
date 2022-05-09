@@ -127,6 +127,20 @@ a{
     background-color: #06bc9f;
 }
 
+input{
+    border: none;
+}
+
+.btn-primary{
+    background-color: #06bc9f;
+    border-color: #06bc9f;
+}
+
+.btn-primary-dark:hover{
+    background-color: #026a59;
+    border-color: #026a59;
+}
+
 
 
 /* ------ css per il main ( quinta section ) ------ */
@@ -150,6 +164,29 @@ a{
     gap: 10px;
 }
 
+.circle-1{
+    padding: 5px 12px;
+    border: solid 1px;
+    border-radius: 50%;
+}
+
+.circle-2{
+    padding: 5px 8px;
+    border: solid 1px;
+    border-radius: 50%;
+}
+
+.circle-3{
+    padding: 5px 9px;
+    border: solid 1px;
+    border-radius: 50%;
+}
+
+.circle-4{
+    padding: 5px 10px;
+    border: solid 1px;
+    border-radius: 50%;
+}
 
 
 /* ------ css per il main ( FOOTER section ) ------ */
